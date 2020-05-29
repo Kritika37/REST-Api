@@ -1,0 +1,27 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "A node.js RESTFUL API (simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kritika37/Rest-Api.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Kritika sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kritika37/Rest-Api/issues"
+  },
+  "homepage": "https://github.com/Kritika37/Rest-Api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

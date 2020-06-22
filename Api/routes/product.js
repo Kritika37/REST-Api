@@ -8,8 +8,13 @@ router.get('/' ,(req, res, next) =>{
 });  //handle incoming get request
 
 router.post('/' ,(req, res, next) =>{
+	const product = {
+		name: req.body.name,
+		price: req.body.price
+	};
 	res.status(201).json({
-		message: 'handle incoming POST request to /product'
+		message: 'handle incoming POST request to /product',
+		createdProduct: product
 	});
 });  
 

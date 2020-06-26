@@ -13,6 +13,9 @@ mongoose.connect('mongodb+srv://Kritika21:' + process.env.MONGO_ATLAS_PW + '@clu
 		,useNewUrlParser: true  }
 );
 
+mongoose.Promise = global.Promise;
+
+
 app.use(morgan('dev'));
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(bodyparser.json());

@@ -2,9 +2,16 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const bodyparser = require('body-parser');
+const mongoose = require("mongoose");
 
 const productRoutes = require('./Api/routes/product')
 const orderRoutes = require('./Api/routes/order')
+
+//connecting to mongodb
+mongoose.connect('mongodb+srv://Kritika21:' + process.env.MONGO_ATLAS_PW + '@cluster0-x5ftg.mongodb.net/<dbname>?retryWrites=true&w=majority',
+	{ useUnifiedTopology: true
+		,useNewUrlParser: true  }
+);
 
 app.use(morgan('dev'));
 app.use(bodyparser.urlencoded({extended: false}));

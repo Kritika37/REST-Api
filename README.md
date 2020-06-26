@@ -12,6 +12,6 @@ Handling Errors in our API
 
 3. Fixing CORS(Cross-Origin Resource sharing) error by sending some header files
 
-4.Added mongodb for database fetching
+4. Added mongodb for database fetching
 
-5. Moongose validation
+5. Moongose validation and creating model for order

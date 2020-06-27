@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 
 const productRoutes = require('./Api/routes/product')
 const orderRoutes = require('./Api/routes/order')
+const userRoutes = require('./Api/routes/user')
 
 //connecting to mongodb
 mongoose.connect('mongodb+srv://Kritika21:' + process.env.MONGO_ATLAS_PW + '@cluster0-x5ftg.mongodb.net/<dbname>?retryWrites=true&w=majority',
@@ -37,6 +38,7 @@ next();
  //Routes which should handle requests
 app.use('/product' , productRoutes);
 app.use('/order' , orderRoutes);
+app.use("/user", userRoutes);
 
 //handle every request /error if some wrong path is accessed
 app.use((req,res,next) => {

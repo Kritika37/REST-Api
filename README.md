@@ -19,3 +19,7 @@ Handling Errors in our API
 6. Populating queries to get merged data at once
 
 7. Upload images using package npm install --save multer
+
+8. User Authentication and return Token(Json data) as verification (RestApi is stateless so cannot use session)
+
+9. using node.bycrypt.js for hashing passwords

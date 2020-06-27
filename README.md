@@ -23,3 +23,5 @@ Handling Errors in our API
 8. User Authentication and return Token(Json data) as verification (RestApi is stateless so cannot use session)
 
 9. using node.bycrypt.js for hashing passwords
+
+10. JWT signing with token

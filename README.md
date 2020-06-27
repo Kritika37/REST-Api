@@ -27,3 +27,7 @@ Handling Errors in our API
 10. JWT signing with token
 
 11. Added controller ,cleaner route files
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+For usage , need to have mongodb atlas set as database and providing accessing to network required
+.npm start (to run)

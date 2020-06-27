@@ -30,4 +30,5 @@ Handling Errors in our API
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 For usage , need to have mongodb atlas set as database and providing accessing to network required
-.npm start (to run)
+
+-> npm start (to run)

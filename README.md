@@ -15,3 +15,7 @@ Handling Errors in our API
 4. Added mongodb for database fetching
 
 5. Moongose validation and creating model for order
+
+6. Populating queries to get merged data at once
+
+7. Upload images using package npm install --save multer

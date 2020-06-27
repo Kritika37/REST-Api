@@ -4,6 +4,8 @@ const morgan = require('morgan');
 const bodyparser = require('body-parser');
 const mongoose = require("mongoose");
 
+
+
 const productRoutes = require('./Api/routes/product')
 const orderRoutes = require('./Api/routes/order')
 
@@ -17,6 +19,7 @@ mongoose.Promise = global.Promise;
 
 
 app.use(morgan('dev'));
+app.use('/uploads',express.static('uploads'));
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(bodyparser.json());
 

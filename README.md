@@ -25,3 +25,5 @@ Handling Errors in our API
 9. using node.bycrypt.js for hashing passwords
 
 10. JWT signing with token
+
+11. Added controller ,cleaner route files
